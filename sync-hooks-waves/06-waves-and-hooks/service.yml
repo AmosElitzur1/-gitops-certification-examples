@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: simple-service
   namespace: example06
-spec:
+  spec:
   type: ClusterIP
   selector:
     app: trivial-go-web-app
